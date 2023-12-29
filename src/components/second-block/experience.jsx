@@ -11,6 +11,16 @@ const Experience = () => {
       </h2>
       <p className="company">ChessWizard - JavaScript(react) developer</p>
       <p className="year">(October 2022 - September 2023)</p>
+      <div className="li-responsible">
+        <ul>
+          <li>Designing, developing, and testing UI for web application</li>
+          <li>Build reusable code and libraries for future use</li>
+          <li>
+            Accurately translate user and business needs into functional
+            frontend code
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
