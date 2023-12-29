@@ -1,0 +1,70 @@
+.img-myself {
+    text-align: left;
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+.img-myself img{
+  border-radius: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .img-myself img {
+      display: none;
+    }
+  }
+
+  .img-myself img{
+    border-radius: 20px;
+      padding-right: 20px;
+    }
+
+h1{
+    font-family: 'Wiguru 1';
+}
+
+.text-about-me {
+    width: 600px;
+    padding-right: 30px;
+    font-family: 'Century Gothic';
+    
+}
+
+@media screen and (max-width: 600px) {
+    .text-about-me {
+        font-family: 'Century Gothic';
+    }
+  }
+
+.all-screen {
+    justify-content: flex-end; /* Вирівнює весь блок по правому краю */
+    margin-top: -200px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .all-screen {
+    margin-top: 30px;    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .img-myself {
+        padding-top: 200px;
+        display: flex;
+        
+    }
+  }@media screen and (max-width: 600px) {
+    .img-myself {
+        justify-content: center;
+    }
+
+    .text-about-me {
+        width: 100%;
+        font-family: 'Century Gothic';
+    }
+
+    .img-myself img {
+        display: none; /* Показати зображення в мобільних пристроях */
+    }
+}

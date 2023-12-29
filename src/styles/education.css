@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('./../fonts/DINCondensed-Regular.ttf') format('ttf');
+  }
+
+.year {
+    line-height: 1;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+img {
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 704px) {
+    .year {
+        font-family: 'DIN Condensed';
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1;
+    }
+    
+}
+
+@media screen and (max-width: 800) {
+    .year {
+        font-family: 'DIN Condensed';
+        font-size: 20px;
+        line-height: 0.8;
+    }
+    
+}
+
+.company {
+    font-family: 'DIN Condensed';
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.profession {
+    font-family: 'DIN Condensed';
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.ul-responsobilitis {
+    font-size: 13px;
+}

@@ -1,0 +1,107 @@
+
+
+.main-block {
+    font-family: 'Wiguru 1';
+    background-repeat: no-repeat; /* Запобігає повторенню фонової картинки */
+    background-size: 50%;    
+    display: flex;
+    }
+
+    @media screen and (max-width: 1010px) {
+        .main-block {
+            height: 100%;
+            background-repeat: no-repeat; /* Запобігає повторенню фонової картинки */
+            font-family: 'Wiguru 1';
+            background-size: 50%;
+            padding-top: 2%;
+            
+        }
+
+        .contact-block {
+            padding-left: 40px;
+        }
+      }
+
+    p {
+        margin-bottom: -15px;
+    }
+
+
+.expertice-with-title {
+    font-size: 40px;
+    padding-left: 20px;
+    height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .expertice-with-title {
+        font-size: 20px;
+        margin-top: -60px;
+       padding-left: 0%;
+       margin-left: 22px;
+    }
+
+    img.first-img-me {
+        padding-left: 0px;
+    }
+
+  }
+
+.first-img-me {
+    padding-top: 15px;
+}
+
+.contact {
+    font-family: 'Century Gothic';
+    color:antiquewhite;
+}
+
+.contact-block {
+    text-align: end;
+}
+
+.expertise {
+    color: gray;
+    font-family: 'Century Gothic';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    .expertise {
+      flex-direction: column;
+      margin-top: 60px;
+      margin-left: -40px;
+    }
+  }
+
+ul {
+    list-style-type: none;
+}
+
+.first-element {
+    font-family: 'Wiguru 1';
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .first-element {
+        font-family: 'Wiguru 1';
+        font-size: 15px;
+    }
+
+    .list-item {
+        font-size: 16px;
+    margin-left: -0px;    }
+
+  }
+
+.vb {
+    font-size: 20px
+}
+
+.list-item {
+    font-size: 16px;
+}

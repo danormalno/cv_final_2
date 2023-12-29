@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('./../fonts/centurygothic.ttf') format('ttf');
+    font-family: 'TRY Clother';
+    src: url('./../fonts/try-clother.ttf') format('ttf');
+    font-family: 'DIN Condensed';
+    src: url('./../fonts/DINCondensed-Regular.ttf') format('ttf');
+  }
+
+.expertise {
+    color: gray;
+    font-family: 'Century Gothic';
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    justify-content: left;
+}
+
+.expertice-with-title {
+    font-family: 'DIN Condensed';
+    line-height: 0.1;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.job-name {
+    margin-top: -20px;
+    font-size: 18.5px;
+}
+
+.first-element {
+    font-family: 'DIN Condensed';
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.general {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 704px) {
+    .expertice-with-title {
+        font-family: 'DIN Condensed';
+        font-size: 40px;
+        line-height: 0.8;
+
+    } 
+
+   
+
+    .expertise {
+        color: gray;
+        font-family: 'Century Gothic';
+        font-size: 15px;
+        justify-content: left;
+
+    }
+
+    .job-name {
+        font-size: 15px;
+    }
+}
+
+ul {
+    margin-top: -15px;
+}
